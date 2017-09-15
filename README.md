@@ -1,6 +1,12 @@
 # PowerDNS-Admin
 PowerDNS Web-GUI - Built by Flask
 
+This fork of PowerDNS-Admin is maintained and used internally by Sanoma. It
+incorporates the following changes:
+
+- Do not update domains from API on every dashboard request ([#206](https://github.com/ngoduykhanh/PowerDNS-Admin/pull/206))
+- Do filtering and pagination of domains on dashboard server-side ([#207](https://github.com/ngoduykhanh/PowerDNS-Admin/pull/207))
+
 #### Features:
 - Multiple domain management
 - Local / LDAP user authentication
